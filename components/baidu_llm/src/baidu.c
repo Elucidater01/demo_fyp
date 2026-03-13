@@ -138,7 +138,7 @@ err:
 //     "conversation_id": "9594e2af-e196-455a-83f4-d8110cc07f3a"
 // }
 #define BAIDU_LLM_URL           "https://qianfan.baidubce.com/v2/app/conversation/runs"
-#define API_KEY                 "bce-v3/ALTAK-pe8BqsK8wdKBM4A2SWNLg/ef5942f0ecb1c533e0538c0021e8f463408df374"
+#define API_KEY                
 
 esp_err_t baidu_chatbot_send_request(char *system_content, char *user_content)
 {
@@ -330,7 +330,7 @@ esp_err_t baidu_chatbot_recv_response(char *response_data, size_t output_size)
 * receives a text response, and processes it.
 */
 #define BAIDUBCE_STT_URL            "http://vop.baidu.com/server_api?dev_pid=1537&cuid=F2sreBeZNdY2jWwlUwbTxPy8R1gFMzEL&token=%s"
-#define AUDIO_TOKEN                 "25.331c5ecaaa8147e903c3ecc877ceb904.315360000.2083390497.282335-121194119"
+#define AUDIO_TOKEN                 
 #define CUID "F2sreBeZNdY2jWwlUwbTxPy8R1gFMzEL"
 static esp_http_client_handle_t g_baidu_asr_http_handle = NULL;
 
