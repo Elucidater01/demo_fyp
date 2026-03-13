@@ -1,6 +1,6 @@
 # **ESP32-S3 大模型 AI 桌面机器人**
 
-本实例可以实现桌面钟、大模型语音对话、敲木鱼、摇色子、2048、摄像头等功能。
+根据官方例程修改若干地方。本实例可以实现桌面钟、大模型语音对话、敲木鱼、摇色子、2048、摄像头等功能。
 
 # **大模型对话**
 
@@ -14,7 +14,7 @@
 
 # 开发环境
 
-本例程推荐在 ``ESP-IDF v5.2.3`` 下进行开发
+本例程在 ``ESP-IDF v5.5.1`` 下进行开发
 - Windows 用户可以使用 [一键安装工具](https://dl.espressif.com/dl/esp-idf/)。参考文档：[Windows 平台工具链的标准设置](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/get-started/windows-setup.html)，也可以参考视频教程：[使用一键安装工具快速搭建 ESP-IDF 开发环境 (Windows)](https://www.bilibili.com/video/BV1to4y177ko/)
 - Linux 和 macOS 用户可以参考文档：[Linux 和 macOS 平台工具链的标准设置](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/get-started/linux-macos-setup.html)。
   - 若 Github 网络不稳定，可以尝试 Gitee 镜像：https://gitee.com/EspressifSystems/esp-idf.git
