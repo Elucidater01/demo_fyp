@@ -1,0 +1,11 @@
+{
+    "idf.espIdfPathWin": "d:\\Espressif\\IDF\\v5.5.1\\esp-idf",
+    "idf.toolsPathWin": "D:\\Espressif",
+    "idf.pythonInstallPath": "D:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+    "idf.flashType": "UART",
+    "idf.portWin": "COM4",
+    "files.associations": {
+        "app_animation.h": "c",
+        "mmap_generate_lottie_assets.h": "c"
+    }
+}
